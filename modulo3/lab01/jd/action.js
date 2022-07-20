@@ -1,5 +1,3 @@
-
-
 let rol = prompt('Cual es tu rol?');
 if (rol == 'admin' || rol == 'recursos') {
     let clave = prompt('Cual es tu clave?');
@@ -14,14 +12,39 @@ if (rol == 'admin' || rol == 'recursos') {
     let username = nombre;
     nombreUsuario.innerHTML = username;
 
+
+    
+
+    let empleado= [];
+    empleado.push = prompt('Ingrese el nombre:');
+    empleado.push = prompt('Ingrese el apellido:');
+    empleado.push = prompt('Ingrese la edad:');
+
+
+
+
     let nombreNuevo = prompt('Ingrese nombre');
     let claveNueva = prompt('Ingrese Clave');
 
     if (nombreNuevo == nombre && claveNueva == '1234') {
         alert('Binvenido  ' + nombreNuevo);
+        for(let i = 0; i<empleado.length; i++){
+            alert(empleado[i]);
+
+        }
     }
     else{
         alert('Usuario/Contraseña incorrecto..');
     }
 
 }
+
+
+
+
+
+
+
+
+
+
