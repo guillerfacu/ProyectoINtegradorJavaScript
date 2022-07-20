@@ -1,4 +1,4 @@
-
+/* 
 function alertCaja(color){
     alert('El color es: ' +color)
 }
@@ -15,4 +15,19 @@ function colorearCaja(color){
     alert('El color es ' +color);
     document.getElementById('caja').innerHTML = 'Él color es' + color;
     document.getElementById('caja').style.background = color;
-}
+} */
+
+console.log($);
+
+const panel = $('#panel');
+const paneles = $('.paneles');
+const boton = $('button'); 
+
+
+boton.on('click' , function(){
+    alert('Hiciste click en el boton');
+});
+
+boton.click(function(){
+    alert('Hiciste click en el boton');
+});
